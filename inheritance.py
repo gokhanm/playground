@@ -11,7 +11,7 @@ class Progression():
         self._current = start
 
     def _advance(self):
-        """Update self. current to a new value.
+        """Update self._current to a new value.
             This should be overridden by a subclass to customize progression.
             By convention, if current is set to None, this designates the
             end of a finite progression.
